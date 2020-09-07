@@ -1,38 +1,57 @@
-.App {
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+
+/* app styles */
+.button {
+  background-color: #0763d4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #012d63;
+}
+input {
+  width: 90%;
+  margin: 0;
+  padding: 0px;
+  border: none;
+  background-color: #01244e;
+  height: 45px;
+  color: aliceblue;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #0763d4;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bookDetail {
+  padding: 2px;
+  margin: 10px auto;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #0763d4;
+}
+.bookDetail:hover {
+  cursor: pointer;
+  background-color: rgb(151, 48, 48);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body {
+  background-color: #004ba8;
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
 }
